@@ -2292,3 +2292,63 @@ p {
     background-color: #38f9d7; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+#sidebar-contact {
+  height: auto;
+  width: 10px;
+  position: fixed;
+  text-align: center;
+  padding: 10px;
+  margin-left: 10px;
+  z-index: 9999;
+  top: 38%;
+}
+
+#sidebar-contact .social {
+  margin-left: -170px;
+  width: 200px;
+  padding: 0;
+  display: inline-table;
+  height: 60px;
+  -moz-transition-property: margin-left;
+  -moz-transition-duration: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -ms-transition-property: margin-left;
+  -ms-transition-duration: 0.2s;
+  -ms-transition-delay: 0.2s;
+  -o-transition-property: margin-left;
+  -o-transition-duration: 0.2s;
+  -o-transition-delay: 0.2s;
+  -webkit-transition-property: margin-left;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-delay: 0.2s;
+  cursor: pointer;
+  line-height: 60px;
+}
+#sidebar-contact .social.tripadvisor {
+  background: #00aa6c;
+}
+
+
+#sidebar-contact .social.tripadvisor p i {
+  left: 36px;
+}
+
+#sidebar-contact  .social p i {
+  left: 30px;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 26px;
+  color: #fff;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
