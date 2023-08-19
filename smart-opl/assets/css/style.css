@@ -101,8 +101,22 @@ p {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  opacity: 0.8;
   width: 100%;
-  height: 100%; }
+  height: 100%; 
+}
+/* #99dcd0; */
+.bg_cover::before {
+  content: "";
+  background-image: url(../images/slider-1.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
 
 /*==== Section Title =====*/
 .section-title .title {
@@ -1096,7 +1110,7 @@ p {
 .slider-area {
   padding-top: 94px; }
   .slider-area .bd-example .carousel {
-    background-color: #38f9d7; }
+    background-color: #99dcd0; }
     .slider-area .bd-example .carousel .carousel-inner .carousel-item {
       height: 700px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
